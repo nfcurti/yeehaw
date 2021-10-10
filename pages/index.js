@@ -64,37 +64,40 @@ export default function Home() {
         <div className={styles.intro}>
         	<h1>Introduction</h1>
         	<p>
-        	Yeehaw is a series of 3,000 collectible NFT's which aims to bring to most exclusive and high class club to the Ethereum Blockchain. 
+        	YeeHaws are a collection of 100<span style={{fontFamily:'arial'}}>%</span> HAND DRAWN and assembled NFTs.
+
+            These 3,200 Western themed NFTs will be alive on the Ethereum blockchain. 
+ 
         	<br/><br/>
-			<img src="https://img.icons8.com/ios-filled/50/000000/arrow.png" width={20} style={{marginBottom:'-4px'}}/>Each NFT is the holders ticket into the social club, which automatically enables them to be included in exclusive giveaways, meetups, grants and much, much more. 
+			<img src="https://img.icons8.com/ios-filled/50/000000/arrow.png" width={20} style={{marginBottom:'-4px'}}/>3,200 will be sold at 0.069 ETH (yeehaw).  The price will not increase/decrease during the course of the sale. 
 			<br/><br/>
-			<img src="https://img.icons8.com/ios-filled/50/000000/arrow.png" width={20} style={{marginBottom:'-4px'}}/>Being part of the Yeehaw means you are part of the family. We watch out for each other, which is where the family term comes in. If a member of the club is working on a project, needs capital for something important or is raising for a charity, the community can vote on funding some or all of the capital needed! 
+			<img src="https://img.icons8.com/ios-filled/50/000000/arrow.png" width={20} style={{marginBottom:'-4px'}}/>50 will be held by creator, for giveaways. 25 planned honorary YeeHaws will be given out.
 			<br/><br/>
-			<img src="https://img.icons8.com/ios-filled/50/000000/arrow.png" width={20} style={{marginBottom:'-4px'}}/>We cant wait to grow our Yeehaw family, welcome aboard.
+			<img src="https://img.icons8.com/ios-filled/50/000000/arrow.png" width={20} style={{marginBottom:'-4px'}}/>More updates to come!
         	</p>
         </div>
 
         <div className={styles.roadmap}>
+            
         	<h1>Roadmap</h1>
         	<div className={styles.roadmap_wrapper}>
         		<div className={styles.roadmap_wrapper_item}>
         			<h1>25 <img src='/assets/percentage.svg' width={20 } /> </h1>
-        			<p>1 NFT Airdropped to a holder</p>
+        			<p>5 NFTs airdropped to random holders. 25% of Sold</p>
         		</div>
         		<div className={styles.roadmap_wrapper_item}>
         			<h1>50<img src='/assets/percentage.svg' width={20 } /></h1>
-        			<p>1 NFT Airdropped + $1000 USDT to a holder</p>
+        			<p>10 NFTs airdropped to random holders.</p>
         		</div>
         		<div className={styles.roadmap_wrapper_item}>
         			<h1>75<img src='/assets/percentage.svg' width={20 } /></h1>
-        			<p>1 NFT Airdropped to a holder</p>
+        			<p>15 NFTs airdropped to random holders.</p>
         		</div>
         		<div className={styles.roadmap_wrapper_item}>
         			<h1>100<img src='/assets/percentage.svg' width={20 } /></h1>
-        			<p> 1 NFT Airdropped + Community competition</p>
+        			<p> 1420.69$ USDT to be airdropped to a holder.</p>
         		</div>
         	</div>
-            <img className={styles.loy} src='/lotsofyeehaw.jpg'/>
         </div>
     </div>
   )
