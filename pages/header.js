@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <nav className={styles.navbar}>
-    	<img src='/assets/logo.jpg'/>
+    	<img style={{visibility: 'hidden'}} src='/assets/logo.jpg'/>
     	<button className={styles.connect_button}>{userAddress}</button>
     </nav>
   )
